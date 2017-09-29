@@ -1,6 +1,10 @@
+core_cagnotte_utilisateur:
+    resource: "@CoreCagnotteBundle/Controller/utilisateurController.php"
+    type:     annotation
+
 core_cagnotte:
     resource: "@CoreCagnotteBundle/Resources/config/routing.yml"
-    prefix:   /
+    prefix:   /cagnotte
 
 app:
     resource: '@AppBundle/Controller/'
