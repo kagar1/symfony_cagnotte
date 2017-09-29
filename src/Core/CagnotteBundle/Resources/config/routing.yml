@@ -1,3 +1,7 @@
+core_cagnotte_produit:
+    resource: "@CoreCagnotteBundle/Resources/config/routing/produit.yml"
+    prefix:   /produit
+
 core_cagnotte_homepage:
     path:     /
     defaults: { _controller: CoreCagnotteBundle:Default:index }
