@@ -2,6 +2,10 @@ core_cagnotte_categorie:
     resource: "@CoreCagnotteBundle/Resources/config/routing/categorie.yml"
     prefix:   /categorie
 
+core_cagnotte_fournisseur:
+    resource: "@CoreCagnotteBundle/Resources/config/routing/fournisseur.yml"
+    prefix:   /fournisseur
+
 core_cagnotte_homepage:
-    path: /
-    defaults: {_controller: CoreCagnotteBundle:Default:index}
+    path:     /
+    defaults: { _controller: CoreCagnotteBundle:Default:index }
