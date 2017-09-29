@@ -1,3 +1,11 @@
+core_cagnotte_utilisateur:
+    resource: "@CoreCagnotteBundle/Resources/config/routing/utilisateur.yml"
+    prefix:   /utilisateur
+
 core_cagnotte_homepage:
-    path:     /
+    path:     /accueil
     defaults: { _controller: CoreCagnotteBundle:Default:index }
+    
+core_cagnotte_compte:
+    path:     /client
+    defaults: { _controller: CoreCagnotteBundle:utilisateur:client }
